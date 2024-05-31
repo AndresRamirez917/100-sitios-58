@@ -46,11 +46,14 @@ form .form-control {
   padding: 1rem;
   border-radius: 3px;
   margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
 }
-form button {
-  width: 100%;
+form .button-2 {
+  width: 30%;
   background: #000;
   color: #fff;
+  border-radius: 0;
 }
 
 .grid {
@@ -121,6 +124,7 @@ img {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 3rem;
 }
 #cards .overlay-1 {
   background: url("/images/image-1.jpg");
@@ -183,6 +187,11 @@ img {
 #cards .overlay-3 p {
   margin-bottom: 2rem;
 }
+#cards .grid-box-3 h4,
+#cards .grid-box-4 h4,
+#cards .grid-box-5 h4 {
+  color: #ffffff;
+}
 #cards .grid-box-1 {
   background-image: url("/images/image-1.jpg");
   grid-column: 1/4;
@@ -223,6 +232,30 @@ img {
 }
 #cards .grid-box h4 {
   font-size: 1.5rem;
+}
+
+#contact {
+  width: 80%;
+  background: rgb(231, 231, 231);
+  margin: 0 auto;
+}
+#contact .contact-row {
+  display: flex;
+  margin-top: 2rem;
+  gap: 200px;
+}
+#contact .contact-row .form-group-flex {
+  display: flex;
+  gap: 10px;
+}
+#contact .contact-form h2 {
+  margin-bottom: 2rem;
+}
+#contact .contact-social h2 {
+  margin-bottom: 2rem;
+}
+#contact .contact-social img {
+  width: 50px;
 }
 
 #footer {
