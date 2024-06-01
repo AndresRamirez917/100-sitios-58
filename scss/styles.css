@@ -31,7 +31,7 @@ ul {
   text-align: center;
   padding: 10px 20px;
   text-transform: uppercase;
-  letter-spacing: 20px;
+  letter-spacing: 3px;
   border-radius: 50px;
   border: 1px solid #555555;
   cursor: pointer;
@@ -50,10 +50,13 @@ form .form-control {
   border-bottom: 1px solid #ccc;
 }
 form .button-2 {
+  text-align: center;
+  margin: 0 auto;
   width: 30%;
   background: #000;
   color: #fff;
   border-radius: 0;
+  margin-bottom: 1rem;
 }
 
 .grid {
@@ -118,6 +121,14 @@ img {
   font-size: 1.1rem;
   margin-bottom: 1rem;
   line-height: 30px;
+}
+
+#showcase-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+#showcase-2 h1, #showcase-2 img, #showcase-2 p {
+  margin-bottom: 2rem;
 }
 
 #cards {
@@ -187,6 +198,9 @@ img {
 #cards .overlay-3 p {
   margin-bottom: 2rem;
 }
+#cards .overlay-5 h4, #cards .overlay-5 p, #cards .overlay-5 a {
+  color: #fff;
+}
 #cards .grid-box-3 h4,
 #cards .grid-box-4 h4,
 #cards .grid-box-5 h4 {
@@ -236,8 +250,11 @@ img {
 
 #contact {
   width: 80%;
-  background: rgb(231, 231, 231);
   margin: 0 auto;
+}
+#contact h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 #contact .contact-row {
   display: flex;
@@ -255,7 +272,13 @@ img {
   margin-bottom: 2rem;
 }
 #contact .contact-social img {
+  display: flex;
+  justify-content: center;
+  background: black;
+  border-radius: 70px;
+  margin: auto;
   width: 50px;
+  border: 3px solid black;
 }
 
 #footer {
