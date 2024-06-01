@@ -215,6 +215,8 @@ img {
       
     }
 
+    //De esta manera se usa la misma imagen en lugar de un background de x color
+    //como en el ejercicio 57
     .grid-box-1 {
         background-image: url('/images/image-1.jpg');
         grid-column: 1/4;
@@ -289,14 +291,11 @@ img {
             margin-bottom: 2rem;
         }
         img{
-            display: flex;
-            justify-content: center;
-            background: black;
-            border-radius: 70px;
             margin: auto;
             width: 50px;
-            border: 3px solid black;
         }
+        
+       
     }
 }
 
